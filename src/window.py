@@ -22,7 +22,7 @@ from gi.repository import Gtk
 from UbuntuDrivers import detect
 import apt
 
-@Gtk.Template(resource_path='/org/vanillaos/drivers_utility/window.ui')
+@Gtk.Template(resource_path='/org/vanillaos/drivers_utility/gtk/window.ui')
 class DriversUtilityWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'DriversUtilityWindow'
 
