@@ -10,7 +10,7 @@ gnome = import('gnome')
 
 
 subdir('data')
-subdir('src')
+subdir('vanilla_drivers_utility')
 subdir('po')
 
 gnome.post_install(
