@@ -1,3 +1,3 @@
-# driversmanager
+# Vanilla Drivers Utility
 
-A description of this project.
+This is a utility for managing drivers in Vanilla OS.

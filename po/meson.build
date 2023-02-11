@@ -1,1 +1,1 @@
-i18n.gettext('driversmanager', preset: 'glib')
+i18n.gettext('drivers_utility', preset: 'glib')

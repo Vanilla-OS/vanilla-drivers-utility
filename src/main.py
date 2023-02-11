@@ -24,14 +24,14 @@ gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Gio, Adw
-from .window import DriversmanagerWindow
+from .window import DriversUtilityWindow
 
 
-class DriversmanagerApplication(Adw.Application):
+class DriversUtilityApplication(Adw.Application):
     """The main application singleton class."""
 
     def __init__(self):
-        super().__init__(application_id='org.vanillaos.DriversManager',
+        super().__init__(application_id='org.vanillaos.drivers_utility',
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.quit, ['<primary>q'])
         self.create_action('about', self.on_about_action)
@@ -45,14 +45,14 @@ class DriversmanagerApplication(Adw.Application):
         """
         win = self.props.active_window
         if not win:
-            win = DriversmanagerWindow(application=self)
+            win = DriversUtilityWindow(application=self)
         win.present()
 
     def on_about_action(self, widget, _):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
-                                application_name='driversmanager',
-                                application_icon='org.vanillaos.DriversManager',
+                                application_name='drivers_utility',
+                                application_icon='org.vanillaos.drivers_utility',
                                 developer_name='Mirko',
                                 version='0.1.0',
                                 developers=['Mirko'],
@@ -81,5 +81,5 @@ class DriversmanagerApplication(Adw.Application):
 
 def main(version):
     """The application's entry point."""
-    app = DriversmanagerApplication()
+    app = DriversUtilityApplication()
     return app.run(sys.argv)

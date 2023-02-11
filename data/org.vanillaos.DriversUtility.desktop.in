@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=driversmanager
-Exec=driversmanager
-Icon=org.vanillaos.DriversManager
+Name=drivers_utility
+Exec=drivers_utility
+Icon=org.vanillaos.drivers_utility
 Terminal=false
 Type=Application
 Categories=GTK;

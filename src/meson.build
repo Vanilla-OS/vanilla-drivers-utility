@@ -1,9 +1,9 @@
 pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
-moduledir = join_paths(pkgdatadir, 'driversmanager')
+moduledir = join_paths(pkgdatadir, 'drivers_utility')
 gnome = import('gnome')
 
-gnome.compile_resources('driversmanager',
-  'driversmanager.gresource.xml',
+gnome.compile_resources('drivers_utility',
+  'drivers-utility.gresource.xml',
   gresource_bundle: true,
   install: true,
   install_dir: pkgdatadir,
@@ -18,17 +18,17 @@ conf.set('localedir', join_paths(get_option('prefix'), get_option('localedir')))
 conf.set('pkgdatadir', pkgdatadir)
 
 configure_file(
-  input: 'driversmanager.in',
-  output: 'driversmanager',
+  input: 'vanilla-drivers-utility.in',
+  output: 'vanilla-drivers-utility',
   configuration: conf,
   install: true,
   install_dir: get_option('bindir')
 )
 
-driversmanager_sources = [
+drivers_utility_sources = [
   '__init__.py',
   'main.py',
   'window.py',
 ]
 
-install_data(driversmanager_sources, install_dir: moduledir)
+install_data(drivers_utility_sources, install_dir: moduledir)

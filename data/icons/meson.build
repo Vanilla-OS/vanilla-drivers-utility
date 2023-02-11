@@ -1,4 +1,4 @@
-application_id = 'org.vanillaos.DriversManager'
+application_id = 'org.vanillaos.DriversUtility'
 
 scalable_dir = join_paths('hicolor', 'scalable', 'apps')
 install_data(

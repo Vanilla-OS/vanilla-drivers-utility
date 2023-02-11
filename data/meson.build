@@ -1,6 +1,6 @@
 desktop_file = i18n.merge_file(
-        input: 'org.vanillaos.DriversManager.desktop.in',
-       output: 'org.vanillaos.DriversManager.desktop',
+        input: 'org.vanillaos.DriversUtility.desktop.in',
+       output: 'org.vanillaos.DriversUtility.desktop',
          type: 'desktop',
        po_dir: '../po',
       install: true,
@@ -13,8 +13,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-        input: 'org.vanillaos.DriversManager.appdata.xml.in',
-       output: 'org.vanillaos.DriversManager.appdata.xml',
+        input: 'org.vanillaos.DriversUtility.appdata.xml.in',
+       output: 'org.vanillaos.DriversUtility.appdata.xml',
        po_dir: '../po',
       install: true,
   install_dir: join_paths(get_option('datadir'), 'appdata')
@@ -25,7 +25,7 @@ if appstream_util.found()
   test('Validate appstream file', appstream_util, args: ['validate', appstream_file])
 endif
 
-install_data('org.vanillaos.DriversManager.gschema.xml',
+install_data('org.vanillaos.DriversUtility.gschema.xml',
   install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
 )
 

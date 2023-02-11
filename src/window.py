@@ -19,12 +19,15 @@
 
 from gi.repository import Adw
 from gi.repository import Gtk
+from UbuntuDrivers import detect
+import apt
 
-@Gtk.Template(resource_path='/org/vanillaos/DriversManager/window.ui')
-class DriversmanagerWindow(Adw.ApplicationWindow):
-    __gtype_name__ = 'DriversmanagerWindow'
+@Gtk.Template(resource_path='/org/vanillaos/drivers_utility/window.ui')
+class DriversUtilityWindow(Adw.ApplicationWindow):
+    __gtype_name__ = 'DriversUtilityWindow'
 
     label = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+        #print(detect.system_device_drivers())
