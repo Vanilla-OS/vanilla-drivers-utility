@@ -92,6 +92,24 @@ class DriversUtilityWindow(Adw.ApplicationWindow):
         RunAsync(async_fn, callback_fn)
 
     def __on_install_clicked(self, widget, driver):
+        def handle_response(_widget, response_id):
+            if response_id == "ok":
+                cmd = DriversUtilityWrapper().get_install_command(driver)
+                window = DriversUtilityWindowInstallation(driver, self, cmd, on_close_fn)
+                window.connect("restart", self.__restart)
+                window.show()
+
+        dialog = Adw.MessageDialog.new(
+            self,
+            _("Do you want to install the selected driver?"),
+            _("This will install the '{}' package in your system and possibly remove other versions.").format(driver),
+        )
+        dialog.add_response("cancel", _("_Cancel"))
+        dialog.add_response("ok", _("Install"))
+        dialog.set_response_appearance("ok", Adw.ResponseAppearance.SUGGESTED)
+        dialog.connect("response", handle_response)
+        dialog.present()
+
         def on_close_fn(res):
             if res:
                 self.toast(_("Driver {} installed successfully!".format(driver)))
@@ -100,11 +118,6 @@ class DriversUtilityWindow(Adw.ApplicationWindow):
                 return
 
             self.toast(_("Driver {} installation failed!".format(driver)))
-
-        cmd = DriversUtilityWrapper().get_install_command(driver)
-        window = DriversUtilityWindowInstallation(driver, self, cmd, on_close_fn)
-        window.connect("restart", self.__restart)
-        window.show()
         
     def __set_embedded(self):
         self.btn_cancel.show()
