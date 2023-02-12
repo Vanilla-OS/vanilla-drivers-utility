@@ -42,11 +42,11 @@ class DriverRow(Adw.ActionRow):
         self.__build_ui()
 
     def __build_ui(self):
-        subtitle = "Free" if self.__items.get('free', False) else "Proprietary"
-        subtitle += ", recommended" if self.__items.get('recommended', False) else ""
-        subtitle += ", builtin" if self.__items.get('builtin', False) else ""
-        subtitle += ", installed" if self.__items.get('installed', False) else ""
-        subtitle += ", Waiting for restart" if self.__items.get('waiting', False) else ""
+        subtitle = _("Free") if self.__items.get('free', False) else _("Proprietary")
+        subtitle += _(", recommended") if self.__items.get('recommended', False) else ""
+        subtitle += _(", builtin") if self.__items.get('builtin', False) else ""
+        subtitle += _(", installed") if self.__items.get('installed', False) else ""
+        subtitle += _(", Waiting for restart") if self.__items.get('waiting', False) else ""
         
         self.set_title(self.__driver)
         self.set_subtitle(subtitle)
@@ -59,7 +59,9 @@ class DriverRow(Adw.ActionRow):
             self.connect("activated", self.__on_activated)
         elif not self.__can_install:
             self.set_activatable(False)
-            self.set_tooltip_text("It is not possible to install this driver now. Please restart your device and try again.")
+            self.set_tooltip_text(
+                _("It is not possible to install this driver now. Please restart your device and try again.")
+            )
         else:
             self.btn_restart.connect("clicked", self.__on_restart_clicked)
             self.btn_restart.show()

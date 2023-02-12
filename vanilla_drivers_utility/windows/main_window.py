@@ -94,12 +94,12 @@ class DriversUtilityWindow(Adw.ApplicationWindow):
     def __on_install_clicked(self, widget, driver):
         def on_close_fn(res):
             if res:
-                self.toast(f"Driver {driver} installed successfully!")
+                self.toast(_("Driver {} installed successfully!".format(driver)))
                 self.__build_ui(restart=True)
                 self.__write_latest_installed(driver)
                 return
 
-            self.toast(f"Driver {driver} installation failed!")
+            self.toast(_("Driver {} installation failed!".format(driver)))
 
         cmd = DriversUtilityWrapper().get_install_command(driver)
         window = DriversUtilityWindowInstallation(driver, self, cmd, on_close_fn)

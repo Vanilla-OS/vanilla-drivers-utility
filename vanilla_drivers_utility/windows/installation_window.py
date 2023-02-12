@@ -35,7 +35,7 @@ class DriversUtilityWindowInstallation(Adw.Window):
     def __init__(self, title, window, command, on_close_fn, **kwargs):
         super().__init__(**kwargs)
         self.set_transient_for(window)
-        self.status_install.set_title("Installing '{}'…".format(title))
+        self.status_install.set_title(_("Installing '{}'…").format(title))
         self.__window = window
         self.__command = command
         self.__status = 0
@@ -107,9 +107,9 @@ class DriversUtilityWindowInstallation(Adw.Window):
             self.status_install.hide()
             self.status_done.show()
         else:
-            self.set_title("Installation Failed")
-            self.status_install.set_title("Installation Failed")
-            self.status_install.set_description("The installation of the driver failed. Please try again later.")
+            self.set_title(_("Installation Failed"))
+            self.status_install.set_title(_("Installation Failed"))
+            self.status_install.set_description(_("The installation of the driver failed. Please try again later."))
 
         self.set_deletable(True)
 
