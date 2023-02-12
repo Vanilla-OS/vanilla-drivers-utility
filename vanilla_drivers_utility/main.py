@@ -1,6 +1,6 @@
 # main.py
 #
-# Copyright 2023 Mirko
+# Copyright 2023 Mirko Brombin
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -19,23 +19,50 @@
 
 import sys
 import gi
+import logging
 
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
+gi.require_version('Vte', '3.91')
 
-from gi.repository import Gtk, Gio, Adw
-from .window import DriversUtilityWindow
+from gi.repository import Gtk, GLib, Gio, Adw
+from vanilla_drivers_utility.windows.main_window import DriversUtilityWindow
+
+
+logging.basicConfig(level=logging.INFO)
 
 
 class DriversUtilityApplication(Adw.Application):
     """The main application singleton class."""
 
+    __embedded = False
+
     def __init__(self):
         super().__init__(application_id='org.vanillaos.drivers_utility',
-                         flags=Gio.ApplicationFlags.FLAGS_NONE)
+            flags=Gio.ApplicationFlags.HANDLES_COMMAND_LINE)
         self.create_action('quit', self.quit, ['<primary>q'])
-        self.create_action('about', self.on_about_action)
-        self.create_action('preferences', self.on_preferences_action)
+
+        self.__register_arguments()
+
+    def __register_arguments(self):
+        """Register command line arguments."""
+        self.add_main_option("embedded", ord("e"), GLib.OptionFlags.NONE,
+            GLib.OptionArg.NONE, "Embedded mode", None)
+
+    def do_command_line(self, command):
+        """Handle command line arguments.
+
+        We only have one command line option, --embedded, which
+        indicates that the application is embedded in another
+        application.
+        """
+        commands = command.get_options_dict()
+
+        if commands.contains("embedded"):
+            self.__embedded = True
+
+        self.do_activate()
+        return 0
 
     def do_activate(self):
         """Called when the application is activated.
@@ -45,23 +72,9 @@ class DriversUtilityApplication(Adw.Application):
         """
         win = self.props.active_window
         if not win:
-            win = DriversUtilityWindow(application=self)
+            win = DriversUtilityWindow(application=self,
+                embedded=self.__embedded)
         win.present()
-
-    def on_about_action(self, widget, _):
-        """Callback for the app.about action."""
-        about = Adw.AboutWindow(transient_for=self.props.active_window,
-                                application_name='drivers_utility',
-                                application_icon='org.vanillaos.drivers_utility',
-                                developer_name='Mirko',
-                                version='0.1.0',
-                                developers=['Mirko'],
-                                copyright='© 2023 Mirko')
-        about.present()
-
-    def on_preferences_action(self, widget, _):
-        """Callback for the app.preferences action."""
-        print('app.preferences action activated')
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.

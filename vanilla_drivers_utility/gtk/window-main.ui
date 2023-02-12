@@ -11,26 +11,31 @@
         <property name="orientation">vertical</property>
         <child>
           <object class="GtkHeaderBar" id="header_bar">
-            <child type="end">
-              <object class="GtkMenuButton">
-                <property name="icon-name">open-menu-symbolic</property>
-                <property name="menu-model">primary_menu</property>
+            <child type="start">
+              <object class="GtkButton" id="btn_cancel">
+                <property name="label" translatable="true">Cancel</property>
+                <property name="visible">False</property>
               </object>
             </child>
-            <child type="end">
-              <object class="GtkButton" id="btn_apply">
-                <property name="label" translatable="true">Apply Changes</property>
-                <property name="visible">False</property>
-                <style>
-                  <class name="suggested-action" />
-                </style>
+          </object>
+        </child>
+        <child>
+          <object class="GtkInfoBar" id="info_bar">
+            <property name="visible">False</property>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkLabel" id="info_bar_label">
+                    <property name="label" translatable="true">Transactions are locked. Please try again later or restart your device.</property>
+                  </object>
+                </child>
               </object>
             </child>
           </object>
         </child>
         <child>
           <object class="AdwToastOverlay" id="toasts">
-            <property name="vexpand">center</property>
             <child>
               <object class="GtkBox">
                 <property name="orientation">vertical</property>

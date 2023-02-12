@@ -25,10 +25,13 @@ configure_file(
   install_dir: get_option('bindir')
 )
 
+subdir('widgets')
+subdir('windows')
+subdir('utils')
+
 drivers_utility_sources = [
   '__init__.py',
   'main.py',
-  'window.py',
 ]
 
 install_data(drivers_utility_sources, install_dir: moduledir)
