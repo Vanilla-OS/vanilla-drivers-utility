@@ -1,2 +1,7 @@
 /meson_build/
 /mesonbuild/
+/debian/.debhelper
+/debian/vanilla-drivers-utility
+/debian/vanilla-drivers-utility.debhelper.log
+/debian/vanilla-drivers-utility.substvars
+/obj-x86_64-linux-gnu/
