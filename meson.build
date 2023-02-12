@@ -8,7 +8,6 @@ i18n = import('i18n')
 gnome = import('gnome')
 
 
-
 subdir('data')
 subdir('vanilla_drivers_utility')
 subdir('po')
