@@ -38,7 +38,7 @@ class DriversUtilityApplication(Adw.Application):
     __embedded = False
 
     def __init__(self):
-        super().__init__(application_id='org.vanillaos.drivers_utility',
+        super().__init__(application_id='org.vanillaos.DriversUtility',
             flags=Gio.ApplicationFlags.HANDLES_COMMAND_LINE)
         self.create_action('quit', self.quit, ['<primary>q'])
 

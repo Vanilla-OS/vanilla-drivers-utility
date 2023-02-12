@@ -1,6 +1,6 @@
-data/org.vanillaos.drivers_utility.desktop.in
-data/org.vanillaos.drivers_utility.appdata.xml.in
-data/org.vanillaos.drivers_utility.gschema.xml
+data/org.vanillaos.DriversUtility.desktop.in
+data/org.vanillaos.DriversUtility.appdata.xml.in
+data/org.vanillaos.DriversUtility.gschema.xml
 src/main.py
 src/window.py
 src/window.ui
