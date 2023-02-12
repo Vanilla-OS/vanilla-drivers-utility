@@ -19,6 +19,10 @@
 ```bash
 meson build
 ninja -C build
+
+# to build without the desktop icon
+meson build -Dnodesktop=true
+ninja -C build
 ```
 
 ### Install
@@ -29,4 +33,7 @@ sudo ninja -C build install
 ## Run
 ```bash
 vanilla-drivers-utility
+
+# embedded mode
+vanilla-drivers-utility --embedded
 ```
