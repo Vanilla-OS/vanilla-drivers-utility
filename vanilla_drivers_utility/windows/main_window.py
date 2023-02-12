@@ -19,7 +19,7 @@
 
 import os
 import subprocess
-from gi.repository import Gtk, Gdk, Adw
+from gi.repository import Gtk, GLib, Gdk, Adw
 
 from vanilla_drivers_utility.utils.run_async import RunAsync
 from vanilla_drivers_utility.utils.wrapper import DriversUtilityWrapper
@@ -41,7 +41,8 @@ class DriversUtilityWindow(Adw.ApplicationWindow):
         super().__init__(**kwargs)
 
         self.__refs = []
-        
+        self.__can_install = True
+
         self.__build_ui()
         if embedded:
             self.__set_embedded()
@@ -53,12 +54,14 @@ class DriversUtilityWindow(Adw.ApplicationWindow):
         self.status_drivers.show()
         self.status_no_drivers.hide()
 
-        self.info_bar.set_visible(not self.__can_install)
-
-        for ref in self.__refs:
-            ref.get_parent().remove(ref)
+        if restart:
+            for ref in self.__refs:
+                GLib.idle_add(ref.get_parent().remove, ref)
 
         def async_fn():
+            self.__can_install = DriversUtilityWrapper().can_install() \
+                and not self.__latest_installed
+            self.info_bar.set_visible(not self.__can_install)
             return DriversUtilityWrapper().get_drivers()
 
         def callback_fn(result, error):
@@ -145,7 +148,3 @@ class DriversUtilityWindow(Adw.ApplicationWindow):
     def __write_latest_installed(self, driver):
         with open("/tmp/vanilla_drivers_utility.latest", "w") as f:
             f.write(driver)
-
-    @property
-    def __can_install(self):
-        return DriversUtilityWrapper().can_install() and not self.__latest_installed
