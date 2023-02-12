@@ -19,10 +19,6 @@
 ```bash
 meson build
 ninja -C build
-
-# to build without the desktop icon
-meson build -Dnodesktop=true
-ninja -C build
 ```
 
 ### Install
