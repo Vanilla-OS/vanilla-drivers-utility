@@ -4,13 +4,14 @@
 # Automatically generated, 2023.
 #
 # Benjamin Kőhidi <benstone326@gmail.com>, 2023.
+# Tamás Ecsedi <ecseditamas22@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 19:10+0100\n"
 "PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: Benjamin Kőhidi <benstone326@gmail.com>\n"
+"Last-Translator: Tamás Ecsedi <ecseditamas22@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/hu/>\n"
 "Language: hu\n"
@@ -95,7 +96,7 @@ msgstr "Nincsenek elérhető illesztőprogramok"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Nincs további elérhető illesztőprogram a rendszeréhez."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
