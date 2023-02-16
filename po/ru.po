@@ -3,157 +3,168 @@
 # This file is distributed under the same license as the drivers_utility package.
 # Automatically generated, 2023.
 #
+# inal <inaltarba89@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 19:10+0100\n"
-"PO-Revision-Date: 2023-02-12 19:07+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: inal <inaltarba89@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-drivers-utility/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
-msgstr ""
+msgstr "Менеджер драйверов"
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Нет описания"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "Перезагрузиться сейчас"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Главное"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Показывать ярлыки"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Выйти"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
-msgstr ""
+msgstr "\"Установка новых драйверов...\""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:22
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "Установка в процессе…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "Это может занять некоторое время."
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
-msgstr ""
+msgstr "Установка завершена"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:53
 msgid "Restart your device to start using the new drivers."
 msgstr ""
+"Установка завершена, перезагрузите устройство, чтобы начать использовать "
+"новые драйверы."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "Отменить"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
+"Операции заблокированы. Пожалуйста, повторите попытку позже или "
+"перезагрузите свое устройство."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Загрузка драйверов…"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Пожалуйста, подождите, пока будут загружены доступные драйверы."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
-msgstr ""
+msgstr "Нет доступных драйверов"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Для вашей системы нет доступных дополнительных драйверов."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
-msgstr ""
+msgstr "_Предложения"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Горячие клавиши"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
-msgstr ""
+msgstr "_О менеджере_драйверов"
 
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Команда установки: %s"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Free"
-msgstr ""
+msgstr "Свободно"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Proprietary"
-msgstr ""
+msgstr "Проприетарный"
 
 #: vanilla_drivers_utility/widgets/driver.py:46
 msgid ", recommended"
-msgstr ""
+msgstr ", рекомендуемый"
 
 #: vanilla_drivers_utility/widgets/driver.py:47
 msgid ", builtin"
-msgstr ""
+msgstr ", встроенный"
 
 #: vanilla_drivers_utility/widgets/driver.py:48
 msgid ", installed"
-msgstr ""
+msgstr ", установленный"
 
 #: vanilla_drivers_utility/widgets/driver.py:49
 msgid ", Waiting for restart"
-msgstr ""
+msgstr ", Ожидает перезапуска"
 
 #: vanilla_drivers_utility/widgets/driver.py:63
 msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
 msgstr ""
+"Сейчас установить этот драйвер невозможно. Пожалуйста, перезагрузите свое "
+"устройство и повторите попытку."
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
 msgid "Installing '{}'…"
-msgstr ""
+msgstr "Установка '{}'…"
 
 #: vanilla_drivers_utility/windows/installation_window.py:110
 #: vanilla_drivers_utility/windows/installation_window.py:111
 msgid "Installation Failed"
-msgstr ""
+msgstr "Ошибка установки"
 
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
 msgstr ""
+"Установка драйвера завершилась неудачей. Пожалуйста, попробуйте еще раз "
+"позже."
 
 #: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
-msgstr ""
+msgstr "Драйвер {} установлен успешно!"
 
 #: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
-msgstr ""
+msgstr "Ошибка установки драйвера {}!"

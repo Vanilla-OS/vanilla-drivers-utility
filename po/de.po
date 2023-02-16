@@ -3,156 +3,165 @@
 # This file is distributed under the same license as the drivers_utility package.
 # Automatically generated, 2023.
 #
+# M00nD3v <matteo.duchs@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 19:10+0100\n"
-"PO-Revision-Date: 2023-02-12 19:07+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: M00nD3v <matteo.duchs@outlook.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-drivers-utility/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
-msgstr ""
+msgstr "Treiber Dienstprogramm"
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Keine Beschreibung"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "Jetzt neustarten"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Allgemein"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Shortcuts anzeigen"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Beenden"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
-msgstr ""
+msgstr "\"Neue Treiber werden installiert...\""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:22
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "Installation läuft…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "Das kann eine Weile dauern."
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
-msgstr ""
+msgstr "Installation abgeschlossen"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:53
 msgid "Restart your device to start using the new drivers."
-msgstr ""
+msgstr "Gerät neustarten, um mdie neuen Treiber zu verwenden."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
+"Die Transaktionen sind gesperrt. Bitte versuchen Sie es später erneut oder "
+"starten Sie Ihr Gerät neu."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Treiber werden geladen…"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Bitte warten Sie, während die verfügbaren Treiber geladen werden."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
-msgstr ""
+msgstr "Keine Treiber verfügbar"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Es sind keine zusätzlichen Treiber für dieses System verfügbar."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
-msgstr ""
+msgstr "_Einstellungen"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Tastaturkürzel"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
-msgstr ""
+msgstr "_Über Treiber_Dienstprogramm"
 
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Befehl installieren: %s"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Free"
-msgstr ""
+msgstr "Frei"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Proprietary"
-msgstr ""
+msgstr "Proprietär"
 
 #: vanilla_drivers_utility/widgets/driver.py:46
 msgid ", recommended"
-msgstr ""
+msgstr ", empfohlen"
 
 #: vanilla_drivers_utility/widgets/driver.py:47
 msgid ", builtin"
-msgstr ""
+msgstr ", integriert"
 
 #: vanilla_drivers_utility/widgets/driver.py:48
 msgid ", installed"
-msgstr ""
+msgstr ", installiert"
 
 #: vanilla_drivers_utility/widgets/driver.py:49
 msgid ", Waiting for restart"
-msgstr ""
+msgstr ", Warten auf Neustart"
 
 #: vanilla_drivers_utility/widgets/driver.py:63
 msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
 msgstr ""
+"Es ist nicht möglich, diesen Treiber jetzt zu installieren. Bitte starten "
+"Sie Ihr Gerät neu und versuchen Sie es erneut."
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
 msgid "Installing '{}'…"
-msgstr ""
+msgstr "'{}' wird installiert…"
 
 #: vanilla_drivers_utility/windows/installation_window.py:110
 #: vanilla_drivers_utility/windows/installation_window.py:111
 msgid "Installation Failed"
-msgstr ""
+msgstr "Installation fehlgeschlagen"
 
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
 msgstr ""
+"Die Installation des Treibers ist fehlgeschlagen. Bitte versuchen Sie es "
+"später erneut."
 
 #: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
-msgstr ""
+msgstr "Treiber {} erfolgreich installiert!"
 
 #: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
-msgstr ""
+msgstr "Installation des Treibers {} fehlgeschlagen!"
