@@ -3,32 +3,36 @@
 # This file is distributed under the same license as the drivers_utility package.
 # Automatically generated, 2023.
 #
+# azuki <ipadgoogcloud@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 19:10+0100\n"
-"PO-Revision-Date: 2023-02-12 19:07+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-17 22:27+0000\n"
+"Last-Translator: azuki <ipadgoogcloud@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-drivers-utility/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
+#, fuzzy
 msgid "Drivers Utility"
-msgstr ""
+msgstr "ドライバーユーティリティ"
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "説明なし"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "今すぐ再起動"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -47,47 +51,50 @@ msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
-msgstr ""
+msgstr "\"新しいドライバーをインストールしています...\""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:22
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "インストールが進行中です…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
+#, fuzzy
 msgid "This may take a while."
-msgstr ""
+msgstr "これにはしばらく時間がかかる場合があります。"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
-msgstr ""
+msgstr "インストールが完了しました"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:53
+#, fuzzy
 msgid "Restart your device to start using the new drivers."
-msgstr ""
+msgstr "デバイスを再起動して新しいドライバーを使用します。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
-msgstr ""
+msgstr "トランザクションがロックされています。 "
+"後で試すかデバイスを再起動してください。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
-msgstr ""
+msgstr "新しいドライバーを読み込んでいます…"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "使用可能なドライバーが読み込まれるまでお待ちください。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
-msgstr ""
+msgstr "ドライバーがありません"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "お使いのシステムで使用可能な他のドライバーはありません。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
@@ -134,25 +141,26 @@ msgstr ""
 msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
-msgstr ""
+msgstr "現在、このドライバーをインストールすることはできません。デバイスを再起動して"
+"から、もう一度お試しください。"
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
 msgid "Installing '{}'…"
-msgstr ""
+msgstr "'{}'をインストールしています…"
 
 #: vanilla_drivers_utility/windows/installation_window.py:110
 #: vanilla_drivers_utility/windows/installation_window.py:111
 msgid "Installation Failed"
-msgstr ""
+msgstr "インストールに失敗しました"
 
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
-msgstr ""
+msgstr "ドライバーのインストールに失敗しました。後でもう一度お試しください。"
 
 #: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
-msgstr ""
+msgstr "ドライバー {} のインストールに成功しました!"
 
 #: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
-msgstr ""
+msgstr "ドライバー{} のインストールに失敗しました!"
