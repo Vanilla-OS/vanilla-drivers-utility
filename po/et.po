@@ -23,7 +23,7 @@ msgstr ""
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Kirjeldus puudub"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
@@ -33,7 +33,7 @@ msgstr ""
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Üldine"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
@@ -43,7 +43,7 @@ msgstr ""
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Välju"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
@@ -75,15 +75,16 @@ msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Laen draiverid…"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
+#, fuzzy
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Palun oota kuni saadavalolevad draiverid on laetud."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
-msgstr ""
+msgstr "Draiverid pole saadaval"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
@@ -168,9 +169,11 @@ msgid "Install"
 msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:118
+#: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
 msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:123
+#: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
 msgstr ""
