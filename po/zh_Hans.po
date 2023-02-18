@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 19:10+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"PO-Revision-Date: 2023-02-18 09:58+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-drivers-utility/zh_Hans/>\n"
@@ -119,19 +119,19 @@ msgstr "专有"
 
 #: vanilla_drivers_utility/widgets/driver.py:46
 msgid ", recommended"
-msgstr ", 推荐"
+msgstr "，推荐"
 
 #: vanilla_drivers_utility/widgets/driver.py:47
 msgid ", builtin"
-msgstr ", 内置"
+msgstr "，内置"
 
 #: vanilla_drivers_utility/widgets/driver.py:48
 msgid ", installed"
-msgstr ", 已安装"
+msgstr "，已安装"
 
 #: vanilla_drivers_utility/widgets/driver.py:49
 msgid ", Waiting for restart"
-msgstr ", 等待重启"
+msgstr "，等待重启"
 
 #: vanilla_drivers_utility/widgets/driver.py:63
 msgid ""
