@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 19:10+0100\n"
-"PO-Revision-Date: 2023-02-17 22:27+0000\n"
+"PO-Revision-Date: 2023-02-18 09:58+0000\n"
 "Last-Translator: azuki <ipadgoogcloud@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/ja/>\n"
@@ -37,17 +37,17 @@ msgstr "今すぐ再起動"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "全般"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "ショートカットキーを表示"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "終了"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
@@ -67,9 +67,8 @@ msgid "Installation Complete"
 msgstr "インストールが完了しました"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:53
-#, fuzzy
 msgid "Restart your device to start using the new drivers."
-msgstr "デバイスを再起動して新しいドライバーを使用します。"
+msgstr "デバイスを再起動して新しいドライバーを使用してください。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
@@ -94,48 +93,48 @@ msgstr "ドライバーがありません"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
-msgstr "お使いのシステムで使用可能な他のドライバーはありません。"
+msgstr "お使いのシステムで使用可能な追加のドライバーはありません。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
-msgstr ""
+msgstr "_環境設定"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_キーボードショートカット"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
-msgstr ""
+msgstr "_drivers_utilityの情報"
 
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "インストールコマンド: %s"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Free"
-msgstr ""
+msgstr "無料"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Proprietary"
-msgstr ""
+msgstr "プロプライエタリ"
 
 #: vanilla_drivers_utility/widgets/driver.py:46
 msgid ", recommended"
-msgstr ""
+msgstr ", 推奨"
 
 #: vanilla_drivers_utility/widgets/driver.py:47
 msgid ", builtin"
-msgstr ""
+msgstr ", 初期搭載"
 
 #: vanilla_drivers_utility/widgets/driver.py:48
 msgid ", installed"
-msgstr ""
+msgstr ", インストール済み"
 
 #: vanilla_drivers_utility/widgets/driver.py:49
 msgid ", Waiting for restart"
-msgstr ""
+msgstr ", 再起動を待っています"
 
 #: vanilla_drivers_utility/widgets/driver.py:63
 msgid ""
