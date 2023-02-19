@@ -26,7 +26,7 @@ msgstr "ড্রাইভার ইউটিলিটি"
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr "কোন বর্ণনা নেই"
+msgstr "কোন বর্ণনা পাওয়া যায়নি"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
@@ -54,11 +54,11 @@ msgstr "\"নতুন ড্রাইভার ইনস্টল করা হ
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:22
 msgid "Installation in Progress…"
-msgstr "ইনস্টলেশন চলছে…"
+msgstr "ইন্সটলেশন চলছে…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr "এতে কিছুটা সময় লাগতে পারে।"
+msgstr "এটা হতে কিছুটা সময় লাগতে পারে।"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
@@ -75,8 +75,8 @@ msgstr "বাতিল করুন"
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
-"লেনদেন লক করা আছে। অনুগ্রহ করে পরে আবার চেষ্টা করুন বা আপনার ডিভাইসটি রিস্টার্ট "
-"করুন।"
+"ট্রানজেকশন (কার্যপরিচালনা) লক করা আছে। অনুগ্রহ করে পরে আবার চেষ্টা করুন বা আপনার "
+"ডিভাইসটি রিস্টার্ট করুন।"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -177,9 +177,11 @@ msgid "Install"
 msgstr ", ইনস্টল করা আছে"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
+#: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
 msgstr "{} ড্রাইভার সফলভাবে ইনস্টল হয়েছে!"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
+#: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
 msgstr "{} ড্রাইভার ইনস্টলেশন ব্যর্থ হয়েছে!"
