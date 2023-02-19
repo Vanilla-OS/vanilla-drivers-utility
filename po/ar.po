@@ -50,7 +50,7 @@ msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:22
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "جاري التثبيت…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
@@ -167,9 +167,11 @@ msgid "Install"
 msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:118
+#: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
 msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:123
+#: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
 msgstr ""
