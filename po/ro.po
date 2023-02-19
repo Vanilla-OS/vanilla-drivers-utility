@@ -42,7 +42,7 @@ msgstr "General"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Arată shortcuturi"
+msgstr "Afișează comenzi rapide"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -178,9 +178,11 @@ msgid "Install"
 msgstr ", instalat"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
+#: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
 msgstr "Driverul {} a fost instalat cu succes!"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
+#: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
 msgstr "Instalarea driverului {} a eșuat!"
