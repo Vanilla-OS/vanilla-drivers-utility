@@ -73,7 +73,7 @@ msgstr "Avbryt"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
-msgstr "Transaktioner är låsta. Försök igen senare eller starta om enheten."
+msgstr "Transaktioner är låsta. Försök igen senare eller starta om din enhet."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -175,9 +175,11 @@ msgid "Install"
 msgstr ", installerad"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
+#: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
 msgstr "Drivrutinen {} har installerats!"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
+#: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
 msgstr "Installationen av drivrutinen {} misslyckades!"
