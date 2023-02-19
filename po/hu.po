@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-12 19:10+0100\n"
+"POT-Creation-Date: 2023-02-19 10:14+0100\n"
 "PO-Revision-Date: 2023-02-16 17:29+0000\n"
 "Last-Translator: Tamás Ecsedi <ecseditamas22@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -162,10 +162,30 @@ msgstr ""
 "Az illesztőprogram telepítése sikertelen volt. Kérjük, próbálja meg később "
 "újra."
 
-#: vanilla_drivers_utility/windows/main_window.py:97
+#: vanilla_drivers_utility/windows/main_window.py:107
+msgid "Do you want to install the selected driver?"
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:108
+msgid ""
+"This will install the '{}' package in your system and possibly remove other "
+"versions."
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:110
+#, fuzzy
+msgid "_Cancel"
+msgstr "Mégse"
+
+#: vanilla_drivers_utility/windows/main_window.py:111
+#, fuzzy
+msgid "Install"
+msgstr ", telepített"
+
+#: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
 msgstr "{} illesztőprogram telepítése sikerült!"
 
-#: vanilla_drivers_utility/windows/main_window.py:102
+#: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
 msgstr "{} illesztőprogram telepítése sikertelen!"

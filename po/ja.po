@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-12 19:10+0100\n"
+"POT-Creation-Date: 2023-02-19 10:14+0100\n"
 "PO-Revision-Date: 2023-02-18 09:58+0000\n"
 "Last-Translator: azuki <ipadgoogcloud@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
@@ -76,8 +76,9 @@ msgstr "キャンセル"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
-msgstr "トランザクションがロックされています。 "
-"後で試すかデバイスを再起動してください。"
+msgstr ""
+"トランザクションがロックされています。 後で試すかデバイスを再起動してくださ"
+"い。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -140,7 +141,8 @@ msgstr ", 再起動を待っています"
 msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
-msgstr "現在、このドライバーをインストールすることはできません。デバイスを再起動して"
+msgstr ""
+"現在、このドライバーをインストールすることはできません。デバイスを再起動して"
 "から、もう一度お試しください。"
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
@@ -156,10 +158,30 @@ msgstr "インストールに失敗しました"
 msgid "The installation of the driver failed. Please try again later."
 msgstr "ドライバーのインストールに失敗しました。後でもう一度お試しください。"
 
-#: vanilla_drivers_utility/windows/main_window.py:97
+#: vanilla_drivers_utility/windows/main_window.py:107
+msgid "Do you want to install the selected driver?"
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:108
+msgid ""
+"This will install the '{}' package in your system and possibly remove other "
+"versions."
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:110
+#, fuzzy
+msgid "_Cancel"
+msgstr "キャンセル"
+
+#: vanilla_drivers_utility/windows/main_window.py:111
+#, fuzzy
+msgid "Install"
+msgstr ", インストール済み"
+
+#: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
 msgstr "ドライバー {} のインストールに成功しました!"
 
-#: vanilla_drivers_utility/windows/main_window.py:102
+#: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
 msgstr "ドライバー{} のインストールに失敗しました!"

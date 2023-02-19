@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-12 19:10+0100\n"
+"POT-Creation-Date: 2023-02-19 10:14+0100\n"
 "PO-Revision-Date: 2023-02-18 09:58+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -152,10 +152,30 @@ msgstr "安装失败"
 msgid "The installation of the driver failed. Please try again later."
 msgstr "驱动安装失败。请稍后再试。"
 
-#: vanilla_drivers_utility/windows/main_window.py:97
+#: vanilla_drivers_utility/windows/main_window.py:107
+msgid "Do you want to install the selected driver?"
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:108
+msgid ""
+"This will install the '{}' package in your system and possibly remove other "
+"versions."
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:110
+#, fuzzy
+msgid "_Cancel"
+msgstr "取消"
+
+#: vanilla_drivers_utility/windows/main_window.py:111
+#, fuzzy
+msgid "Install"
+msgstr "，已安装"
+
+#: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
 msgstr "驱动 {} 已成功安装！"
 
-#: vanilla_drivers_utility/windows/main_window.py:102
+#: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
 msgstr "驱动 {} 安装失败！"

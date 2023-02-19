@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-12 19:10+0100\n"
+"POT-Creation-Date: 2023-02-19 10:14+0100\n"
 "PO-Revision-Date: 2023-02-16 17:29+0000\n"
 "Last-Translator: Vojtěch Perník <translations@pervoj.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/"
-"vanilla-drivers-utility/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/vanilla-"
+"drivers-utility/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,10 +155,30 @@ msgstr "Instalace se nezdařila"
 msgid "The installation of the driver failed. Please try again later."
 msgstr "Instalace ovladače se nezdařila. Zkuste to prosím později."
 
-#: vanilla_drivers_utility/windows/main_window.py:97
+#: vanilla_drivers_utility/windows/main_window.py:107
+msgid "Do you want to install the selected driver?"
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:108
+msgid ""
+"This will install the '{}' package in your system and possibly remove other "
+"versions."
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:110
+#, fuzzy
+msgid "_Cancel"
+msgstr "Zrušit"
+
+#: vanilla_drivers_utility/windows/main_window.py:111
+#, fuzzy
+msgid "Install"
+msgstr ", nainstalovaný"
+
+#: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
 msgstr "Ovladač {} byl úspěšně nainstalován!"
 
-#: vanilla_drivers_utility/windows/main_window.py:102
+#: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
 msgstr "Instalace ovladače {} se nezdařila!"
