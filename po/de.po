@@ -4,13 +4,14 @@
 # Automatically generated, 2023.
 #
 # M00nD3v <matteo.duchs@outlook.com>, 2023.
+# Shirosaka <teht0x1c@outlook.de>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: M00nD3v <matteo.duchs@outlook.com>\n"
+"PO-Revision-Date: 2023-02-21 05:05+0000\n"
+"Last-Translator: Shirosaka <teht0x1c@outlook.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/de/>\n"
 "Language: de\n"
@@ -31,7 +32,7 @@ msgstr "Keine Beschreibung"
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr "Jetzt neustarten"
+msgstr "Jetzt neu starten"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -169,9 +170,8 @@ msgid ""
 msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:110
-#, fuzzy
 msgid "_Cancel"
-msgstr "Abbrechen"
+msgstr "_Abbrechen"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 #, fuzzy
