@@ -178,11 +178,9 @@ msgid "Install"
 msgstr ", インストール済み"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
-#: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
 msgstr "ドライバー {} のインストールに成功しました!"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
-#: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
 msgstr "ドライバー{} のインストールに失敗しました!"

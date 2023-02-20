@@ -178,11 +178,9 @@ msgid "Install"
 msgstr ", instalat"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
-#: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
 msgstr "Driverul {} a fost instalat cu succes!"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
-#: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
 msgstr "Instalarea driverului {} a eșuat!"

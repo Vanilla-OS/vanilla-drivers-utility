@@ -177,11 +177,9 @@ msgid "Install"
 msgstr ", ইনস্টল করা আছে"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
-#: vanilla_drivers_utility/windows/main_window.py:97
 msgid "Driver {} installed successfully!"
 msgstr "{} ড্রাইভার সফলভাবে ইনস্টল হয়েছে!"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
-#: vanilla_drivers_utility/windows/main_window.py:102
 msgid "Driver {} installation failed!"
 msgstr "{} ড্রাইভার ইনস্টলেশন ব্যর্থ হয়েছে!"

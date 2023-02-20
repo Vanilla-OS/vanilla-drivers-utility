@@ -170,10 +170,10 @@ msgstr ""
 msgid "Install"
 msgstr ""
 
-#: vanilla_drivers_utility/windows/main_window.py:97
+#: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
 msgstr "Драйвер {} був успішно встановлений!"
 
-#: vanilla_drivers_utility/windows/main_window.py:102
+#: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
 msgstr "Помилка встановлення драйвера {}!"

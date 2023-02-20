@@ -170,10 +170,10 @@ msgstr ""
 msgid "Install"
 msgstr ""
 
-#: vanilla_drivers_utility/windows/main_window.py:97
+#: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
 msgstr "இயக்கி {} வெற்றிகரமாக நிறுவப்பட்டது!"
 
-#: vanilla_drivers_utility/windows/main_window.py:102
+#: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
 msgstr "இயக்கி {} நிறுவல் தோல்வியடைந்தது!"
