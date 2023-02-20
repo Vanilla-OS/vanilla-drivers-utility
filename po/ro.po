@@ -42,7 +42,7 @@ msgstr "General"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Arată shortcuturi"
+msgstr "Afișează comenzi rapide"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"

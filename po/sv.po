@@ -73,7 +73,7 @@ msgstr "Avbryt"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
-msgstr "Transaktioner är låsta. Försök igen senare eller starta om enheten."
+msgstr "Transaktioner är låsta. Försök igen senare eller starta om din enhet."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"

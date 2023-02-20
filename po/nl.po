@@ -54,11 +54,11 @@ msgstr "Nieuwe stuurprogramma's installeren…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:22
 msgid "Installation in Progress…"
-msgstr "Installatie is bezig…"
+msgstr "Bezig met installeren…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr "Dit kan even duren."
+msgstr "Dit kan even duren"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"

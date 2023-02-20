@@ -42,7 +42,7 @@ msgstr "全般"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "ショートカットキーを表示"
+msgstr "ショートカットを表示"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -58,7 +58,6 @@ msgid "Installation in Progress…"
 msgstr "インストールが進行中です…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
-#, fuzzy
 msgid "This may take a while."
 msgstr "これにはしばらく時間がかかる場合があります。"
 
@@ -77,8 +76,8 @@ msgstr "キャンセル"
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
-"トランザクションがロックされています。 後で試すかデバイスを再起動してくださ"
-"い。"
+"トランザクションがロックされています。あとでもう一度試すかデバイスを再起動し"
+"てください。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -115,7 +114,7 @@ msgstr "インストールコマンド: %s"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Free"
-msgstr "無料"
+msgstr "フリー"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Proprietary"
