@@ -4,13 +4,14 @@
 # Automatically generated, 2023.
 #
 # Abu Huraira <abuhuraira@tutamail.com>, 2023.
+# Manjur Muammar Rashidi <mhasanmuammar2@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
+"PO-Revision-Date: 2023-02-21 05:05+0000\n"
+"Last-Translator: Manjur Muammar Rashidi <mhasanmuammar2@gmail.com>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/bn/>\n"
 "Language: bn\n"
@@ -158,23 +159,23 @@ msgstr "ড্রাইভার ইনস্টলেশন ব্যর্থ 
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
-msgstr ""
+msgstr "আপনি কি নির্বাচিত ড্রাইভারটি ইনস্টল করতে চান?"
 
 #: vanilla_drivers_utility/windows/main_window.py:108
 msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
 msgstr ""
+"এটি আপনার সিস্টেমে '{}' প্যাকেজটি ইনস্টল করবে এবং সম্ভবত এর অন্যান্য "
+"সংস্করণগুলি অপসারণ করবে।"
 
 #: vanilla_drivers_utility/windows/main_window.py:110
-#, fuzzy
 msgid "_Cancel"
-msgstr "বাতিল করুন"
+msgstr "_বাতিল করুন"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
-#, fuzzy
 msgid "Install"
-msgstr ", ইনস্টল করা আছে"
+msgstr "ইনস্টল করুন"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"

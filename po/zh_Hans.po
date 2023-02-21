@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-18 09:58+0000\n"
+"PO-Revision-Date: 2023-02-21 05:05+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-drivers-utility/zh_Hans/>\n"
@@ -94,15 +94,15 @@ msgstr "您的设备没有可用的额外驱动。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
-msgstr "_首选项"
+msgstr "首选项(_P)"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "_键盘快捷键"
+msgstr "键盘快捷键(_K)"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
-msgstr "_关于驱动工具"
+msgstr "关于驱动工具(_A)"
 
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
@@ -163,9 +163,8 @@ msgid ""
 msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:110
-#, fuzzy
 msgid "_Cancel"
-msgstr "取消"
+msgstr "取消(_C)"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 #, fuzzy
