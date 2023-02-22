@@ -4,13 +4,14 @@
 # Automatically generated, 2023.
 #
 # Gonzalo Lorenzo <gonzalolorenzo88@gmail.com>, 2023.
+# Juan <benitesjn@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: Gonzalo Lorenzo <gonzalolorenzo88@gmail.com>\n"
+"PO-Revision-Date: 2023-02-22 05:28+0000\n"
+"Last-Translator: Juan <benitesjn@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/es/>\n"
 "Language: es\n"
@@ -22,71 +23,73 @@ msgstr ""
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
-msgstr ""
+msgstr "Drivers Utility"
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "No description"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "Reiniciar ahora"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Mostrar accesos directos"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Salir"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
-msgstr ""
+msgstr "\"Instalando nuevos controladores ...\""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:22
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "Instalación en curso…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "Esto puede tardar un rato."
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
-msgstr ""
+msgstr "Instalación completa"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:53
 msgid "Restart your device to start using the new drivers."
-msgstr ""
+msgstr "Reinicie su dispositivo para comenzar a usar los nuevos controladores."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
+"Las transacciones están bloqueadas. Vuelva a intentarlo más tarde o reinicie "
+"su dispositivo."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Cargando controladores…"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Espere mientras se cargan los controladores disponibles."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
-msgstr ""
+msgstr "No hay controladores disponibles"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
@@ -94,86 +97,91 @@ msgstr "No hay controladores adicionales disponibles para su dispositivo."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
-msgstr ""
+msgstr "_Preferencias"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Atajos de teclado"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
-msgstr ""
+msgstr "_Acerca de drivers_utility"
 
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Comando de instalación: %s"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Free"
-msgstr ""
+msgstr "Libre"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Proprietary"
-msgstr ""
+msgstr "Propietario"
 
 #: vanilla_drivers_utility/widgets/driver.py:46
 msgid ", recommended"
-msgstr ""
+msgstr ", recomendado"
 
 #: vanilla_drivers_utility/widgets/driver.py:47
 msgid ", builtin"
-msgstr ""
+msgstr ", incorporado"
 
 #: vanilla_drivers_utility/widgets/driver.py:48
 msgid ", installed"
-msgstr ""
+msgstr ", instalado"
 
 #: vanilla_drivers_utility/widgets/driver.py:49
 msgid ", Waiting for restart"
-msgstr ""
+msgstr ", Esperando reinicio"
 
 #: vanilla_drivers_utility/widgets/driver.py:63
 msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
 msgstr ""
+"No es posible instalar este controlador. Reinicie su dispositivo y vuelva a "
+"intentarlo."
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
 msgid "Installing '{}'…"
-msgstr ""
+msgstr "Instalando '{}'…"
 
 #: vanilla_drivers_utility/windows/installation_window.py:110
 #: vanilla_drivers_utility/windows/installation_window.py:111
 msgid "Installation Failed"
-msgstr ""
+msgstr "Instalación fallida"
 
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
 msgstr ""
+"La instalación del controlador falló. Por favor, inténtelo de nuevo más "
+"tarde."
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
-msgstr ""
+msgstr "¿Desea instalar el controlador seleccionado?"
 
 #: vanilla_drivers_utility/windows/main_window.py:108
 msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
 msgstr ""
+"Esto instalará el paquete '{}' en su sistema y eliminará otras versiones."
 
 #: vanilla_drivers_utility/windows/main_window.py:110
 msgid "_Cancel"
-msgstr ""
+msgstr "_Cancelar"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
-msgstr ""
+msgstr "¡El controlador {} se instaló correctamente!"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
-msgstr ""
+msgstr "¡Error en la instalación del controlador {}!"

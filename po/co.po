@@ -1,191 +1,175 @@
-# Hungarian translations for drivers_utility package.
-# Copyright (C) 2023 THE drivers_utility'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the drivers_utility package.
-# Automatically generated, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Benjamin Kőhidi <benstone326@gmail.com>, 2023.
-# Tamás Ecsedi <ecseditamas22@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-22 05:28+0000\n"
-"Last-Translator: Benjamin Kőhidi <benstone326@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
-"vanilla-drivers-utility/hu/>\n"
-"Language: hu\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: co\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
-msgstr "Illesztőprogramok"
+msgstr ""
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr "Nincs leírás"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr "Újraindítás most"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Általános"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Gyorsbillentyűk megjelenítése"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Kilépés"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
-msgstr "\"Új illesztőprogramok telepítése…\""
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:22
 msgid "Installation in Progress…"
-msgstr "Telepítés folyamatban…"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr "Ez eltarthat egy ideig."
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
-msgstr "Telepítés befejezve"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:53
 msgid "Restart your device to start using the new drivers."
 msgstr ""
-"Az új illesztőprogramok használatának megkezdéséhez indítsa újra a "
-"készüléket."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr "Mégse"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
-"A tranzakciók zárolva vannak. Kérjük, próbálja meg később újra, vagy indítsa "
-"újra a készülékét."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
-msgstr "Illesztőprogramok betöltése…"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
 msgid "Please wait while the available drivers are being loaded."
 msgstr ""
-"Kérjük, várjon, amíg a rendelkezésre álló illesztőprogramok betöltődnek."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
-msgstr "Nincsenek elérhető illesztőprogramok"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
-msgstr "Nincs további elérhető illesztőprogram a rendszeréhez."
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
-msgstr "_Beállítások"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "_Gyorsbillentyűk"
+msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
-msgstr "_Az illesztőprogramokról"
+msgstr ""
 
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
 msgid "Install command: %s"
-msgstr "Telepítési parancs: %s"
+msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Free"
-msgstr "Ingyenes"
+msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Proprietary"
-msgstr "Védjegyezett"
+msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:46
 msgid ", recommended"
-msgstr ", ajánlott"
+msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:47
 msgid ", builtin"
-msgstr ", beépített"
+msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:48
 msgid ", installed"
-msgstr ", telepített"
+msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:49
 msgid ", Waiting for restart"
-msgstr ", Újraindításra vár"
+msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:63
 msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
 msgstr ""
-"Ezt az illesztőprogramot most nem lehet telepíteni. Kérjük, indítsa újra a "
-"készüléket, és próbálja meg újra."
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
 msgid "Installing '{}'…"
-msgstr "'{}' telepítése folyamatban…"
+msgstr ""
 
 #: vanilla_drivers_utility/windows/installation_window.py:110
 #: vanilla_drivers_utility/windows/installation_window.py:111
 msgid "Installation Failed"
-msgstr "Telepítés sikertelen"
+msgstr ""
 
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
 msgstr ""
-"Az illesztőprogram telepítése sikertelen volt. Kérjük, próbálja meg később "
-"újra."
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
-msgstr "Szeretné telepíteni a kiválasztott illesztőprogramot?"
+msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:108
 msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
 msgstr ""
-"Ez telepíti a '{}' csomagot a rendszerbe és valószínűleg eltávolítja a többi "
-"verziót."
 
 #: vanilla_drivers_utility/windows/main_window.py:110
 msgid "_Cancel"
-msgstr "_Mégse"
+msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr "Telepítés"
+msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
-msgstr "{} illesztőprogram telepítése sikerült!"
+msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
-msgstr "{} illesztőprogram telepítése sikertelen!"
+msgstr ""
