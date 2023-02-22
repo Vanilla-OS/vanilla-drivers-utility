@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the drivers_utility package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drivers_utility\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-19 10:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/org.vanillaos.DriversUtility.desktop.in:3
+msgid "Drivers Utility"
+msgstr ""
+
+#: data/org.vanillaos.DriversUtility.appdata.xml.in:7
+msgid "No description"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/driver.ui:22
+#: vanilla_drivers_utility/gtk/window-installation.ui:60
+msgid "Restart Now"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-installation.ui:6
+msgid "\"Installing new Drivers…\""
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-installation.ui:22
+msgid "Installation in Progress…"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-installation.ui:23
+msgid "This may take a while."
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-installation.ui:52
+msgid "Installation Complete"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-installation.ui:53
+msgid "Restart your device to start using the new drivers."
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-main.ui:16
+msgid "Cancel"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-main.ui:30
+msgid "Transactions are locked. Please try again later or restart your device."
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-main.ui:47
+msgid "Loading drivers…"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-main.ui:48
+msgid "Please wait while the available drivers are being loaded."
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-main.ui:57
+msgid "No Drivers Available"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-main.ui:58
+msgid "There are no extra drivers available for your system."
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-main.ui:78
+msgid "_Preferences"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-main.ui:82
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: vanilla_drivers_utility/gtk/window-main.ui:86
+msgid "_About drivers_utility"
+msgstr ""
+
+#: vanilla_drivers_utility/utils/wrapper.py:67
+#, python-format
+msgid "Install command: %s"
+msgstr ""
+
+#: vanilla_drivers_utility/widgets/driver.py:45
+msgid "Free"
+msgstr ""
+
+#: vanilla_drivers_utility/widgets/driver.py:45
+msgid "Proprietary"
+msgstr ""
+
+#: vanilla_drivers_utility/widgets/driver.py:46
+msgid ", recommended"
+msgstr ""
+
+#: vanilla_drivers_utility/widgets/driver.py:47
+msgid ", builtin"
+msgstr ""
+
+#: vanilla_drivers_utility/widgets/driver.py:48
+msgid ", installed"
+msgstr ""
+
+#: vanilla_drivers_utility/widgets/driver.py:49
+msgid ", Waiting for restart"
+msgstr ""
+
+#: vanilla_drivers_utility/widgets/driver.py:63
+msgid ""
+"It is not possible to install this driver now. Please restart your device "
+"and try again."
+msgstr ""
+
+#: vanilla_drivers_utility/windows/installation_window.py:38
+msgid "Installing '{}'…"
+msgstr ""
+
+#: vanilla_drivers_utility/windows/installation_window.py:110
+#: vanilla_drivers_utility/windows/installation_window.py:111
+msgid "Installation Failed"
+msgstr ""
+
+#: vanilla_drivers_utility/windows/installation_window.py:112
+msgid "The installation of the driver failed. Please try again later."
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:107
+msgid "Do you want to install the selected driver?"
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:108
+msgid ""
+"This will install the '{}' package in your system and possibly remove other "
+"versions."
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:110
+msgid "_Cancel"
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:111
+msgid "Install"
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:118
+msgid "Driver {} installed successfully!"
+msgstr ""
+
+#: vanilla_drivers_utility/windows/main_window.py:123
+msgid "Driver {} installation failed!"
+msgstr ""
