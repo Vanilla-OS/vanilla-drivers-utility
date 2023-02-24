@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-22 05:28+0000\n"
-"Last-Translator: Sergey Ivanov <ivanov.sergey.ekb@gmail.com>\n"
+"PO-Revision-Date: 2023-02-26 01:40+0000\n"
+"Last-Translator: inal <inaltarba89@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/ru/>\n"
 "Language: ru\n"
@@ -33,12 +33,12 @@ msgstr "Нет описания"
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr "Перезагрузиться сейчас"
+msgstr "Перезагрузитесь сейчас"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Главное"
+msgstr "Общие"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
@@ -80,7 +80,7 @@ msgstr "Отменить"
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
 "Операции заблокированы. Пожалуйста, повторите попытку позже или "
-"перезагрузите свое устройство."
+"перезагрузите свое устройство"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -99,6 +99,7 @@ msgid "There are no extra drivers available for your system."
 msgstr "Для вашей системы нет доступных дополнительных драйверов."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
+#, fuzzy
 msgid "_Preferences"
 msgstr "_Предложения"
 
@@ -173,9 +174,8 @@ msgid ""
 msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:110
-#, fuzzy
 msgid "_Cancel"
-msgstr "Отменить"
+msgstr "_Отменить"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
