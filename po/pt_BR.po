@@ -4,14 +4,14 @@
 # Automatically generated, 2023.
 #
 # Gabriel de Jesus Nogueira Carvalho <bakalhausalgado@proton.me>, 2023.
+# Felipe Nogueira <contato.fnog@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-17 22:27+0000\n"
-"Last-Translator: Gabriel de Jesus Nogueira Carvalho <bakalhausalgado@proton."
-"me>\n"
+"PO-Revision-Date: 2023-02-26 01:40+0000\n"
+"Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-drivers-utility/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -42,7 +42,7 @@ msgstr "Geral"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Mostrar Atalhos"
+msgstr "Exibir Atalhos"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -76,8 +76,8 @@ msgstr "Cancelar"
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
-"As transações estão bloqueadas. Tente novamente mais tarde ou reinicie o seu "
-"dispositivo."
+"Transações estão bloqueadas. Por favor, tente novamente mais tarde ou "
+"reinicie seu dispositivo."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -101,7 +101,7 @@ msgstr "_Preferências"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "_Atalhos do Teclado"
+msgstr "_Teclas de Atalho"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
