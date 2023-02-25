@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-22 05:28+0000\n"
+"PO-Revision-Date: 2023-02-23 00:28+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/nl/>\n"
@@ -58,7 +58,7 @@ msgstr "Bezig met installeren…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr "Dit kan even duren"
+msgstr "Dit kan even duren."
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
@@ -77,8 +77,8 @@ msgstr "Annuleren"
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
-"Transacties zijn vergrendeld. Probeer het later opnieuw of start uw apparaat "
-"opnieuw op."
+"Transacties zijn geblokkeerd. Probeer het later nog eens of start uw "
+"apparaat opnieuw op."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
