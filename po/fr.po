@@ -4,13 +4,14 @@
 # Automatically generated, 2023.
 #
 # Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>, 2023.
+# Cequal <adityaojha@outlook.in>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>\n"
+"PO-Revision-Date: 2023-02-26 01:40+0000\n"
+"Last-Translator: Cequal <adityaojha@outlook.in>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/fr/>\n"
 "Language: fr\n"
@@ -30,8 +31,9 @@ msgstr "Pas de description"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
+#, fuzzy
 msgid "Restart Now"
-msgstr "Redémarrer maintenant"
+msgstr "Maintenant Recommencer"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -46,7 +48,7 @@ msgstr "Montrer les raccourcis"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Quitter"
+msgstr "Partir"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
