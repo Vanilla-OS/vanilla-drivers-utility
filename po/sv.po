@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the drivers_utility package.
 # Automatically generated, 2023.
 # Luna Jernberg <lunajernberg@gnome.org> 2023.
-#
+# Luna Jernberg <droidbittin@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-12 20:00+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: sv-se\n"
+"PO-Revision-Date: 2023-02-27 17:36+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-drivers-utility/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -156,23 +157,23 @@ msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
-msgstr ""
+msgstr "Vill du installera den valda drivrutinen?"
 
 #: vanilla_drivers_utility/windows/main_window.py:108
 msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
 msgstr ""
+"Detta kommer att installera '{}' paketet i ditt system och eventuellt ta "
+"bort andra versioner."
 
 #: vanilla_drivers_utility/windows/main_window.py:110
-#, fuzzy
 msgid "_Cancel"
-msgstr "Avbryt"
+msgstr "_Avbryt"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
-#, fuzzy
 msgid "Install"
-msgstr ", installerad"
+msgstr "Installera"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
