@@ -5,13 +5,14 @@
 #
 # Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>, 2023.
 # Cequal <adityaojha@outlook.in>, 2023.
+# "Alexandre BOYER (Alex)" <alexandre.boyer29@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-26 01:40+0000\n"
-"Last-Translator: Cequal <adityaojha@outlook.in>\n"
+"PO-Revision-Date: 2023-02-28 19:27+0000\n"
+"Last-Translator: \"Alexandre BOYER (Alex)\" <alexandre.boyer29@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/fr/>\n"
 "Language: fr\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16-rc\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -31,9 +32,8 @@ msgstr "Pas de description"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
-#, fuzzy
 msgid "Restart Now"
-msgstr "Maintenant Recommencer"
+msgstr "Redémarrer maintenant"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -60,7 +60,7 @@ msgstr "Installation en cours…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr "Le processus peut prendre un moment."
+msgstr "Cela peut durer un moment..."
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
@@ -78,8 +78,8 @@ msgstr "Annuler"
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
-"Les transactions sont verrouillées. Essayez plus tard ou redémarrez votre "
-"appareil."
+"Les traductions sont bloquées. Veuillez réessayer plus tard ou redémarrer "
+"votre appareil."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -161,23 +161,23 @@ msgstr "L'installation du pilote a échoué. Veuillez réessayer plus tard."
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
-msgstr ""
+msgstr "Voulez-vous installer le pilote sélectionné ?"
 
 #: vanilla_drivers_utility/windows/main_window.py:108
 msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
 msgstr ""
+"Cela va installer le paquet '{}' dans votre système et éventuellement "
+"supprimer d'autres versions."
 
 #: vanilla_drivers_utility/windows/main_window.py:110
-#, fuzzy
 msgid "_Cancel"
-msgstr "Annuler"
+msgstr "_Annuler"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
-#, fuzzy
 msgid "Install"
-msgstr ", installé"
+msgstr "Installer"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
