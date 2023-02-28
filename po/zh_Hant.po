@@ -3,173 +3,177 @@
 # This file is distributed under the same license as the drivers_utility package.
 # Automatically generated, 2023.
 #
+# Jen Kung-chih <Kaitul@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-12 19:07+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-28 19:27+0000\n"
+"Last-Translator: Jen Kung-chih <Kaitul@outlook.com>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"vanilla-os/vanilla-drivers-utility/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16-rc\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
-msgstr ""
+msgstr "驅動程式工具"
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "沒有描述"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "立即重新啟動"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "顯示快速鍵"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "離開"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
-msgstr ""
+msgstr "「正在安裝新驅動程式…」"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:22
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "正在進行安裝…"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "這可能需要一些時間。"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
-msgstr ""
+msgstr "安裝完成"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:53
 msgid "Restart your device to start using the new drivers."
-msgstr ""
+msgstr "重新啟動您的裝置以開始使用新驅動程式。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
-msgstr ""
+msgstr "交易已鎖定。請稍候再試一次或重新啟動您的裝置。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
-msgstr ""
+msgstr "正在載入驅動程式…"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "請等候可用的驅動程式載入。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
-msgstr ""
+msgstr "沒有可用的驅動程式"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "您的系統沒有可用的額外驅動程式。"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
-msgstr ""
+msgstr "偏好設定(_P)"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "鍵盤快速鍵(_K)"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
-msgstr ""
+msgstr "關於驅動程式工具(_A)"
 
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "安裝命令：%s"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Free"
-msgstr ""
+msgstr "自由"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Proprietary"
-msgstr ""
+msgstr "專屬"
 
 #: vanilla_drivers_utility/widgets/driver.py:46
 msgid ", recommended"
-msgstr ""
+msgstr "，建議"
 
 #: vanilla_drivers_utility/widgets/driver.py:47
 msgid ", builtin"
-msgstr ""
+msgstr "，內建"
 
 #: vanilla_drivers_utility/widgets/driver.py:48
 msgid ", installed"
-msgstr ""
+msgstr "，已安裝"
 
 #: vanilla_drivers_utility/widgets/driver.py:49
 msgid ", Waiting for restart"
-msgstr ""
+msgstr "，等候重新啟動"
 
 #: vanilla_drivers_utility/widgets/driver.py:63
 msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
-msgstr ""
+msgstr "現在無法安裝驅動程式。請重新啟動您的裝置並再試一次。"
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
 msgid "Installing '{}'…"
-msgstr ""
+msgstr "正在安裝 '{}'…"
 
 #: vanilla_drivers_utility/windows/installation_window.py:110
 #: vanilla_drivers_utility/windows/installation_window.py:111
 msgid "Installation Failed"
-msgstr ""
+msgstr "安裝失敗"
 
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
-msgstr ""
+msgstr "驅動程式安裝失敗。請稍候再試一次。"
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
-msgstr ""
+msgstr "要安裝選取的驅動程式嗎？"
 
 #: vanilla_drivers_utility/windows/main_window.py:108
 msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
-msgstr ""
+msgstr "這將在您的系統中安裝「{}」軟體包，並可能移除其他版本。"
 
 #: vanilla_drivers_utility/windows/main_window.py:110
 msgid "_Cancel"
-msgstr ""
+msgstr "取消(_C)"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr ""
+msgstr "安裝"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
-msgstr ""
+msgstr "驅動程式 {} 已成功安裝！"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
-msgstr ""
+msgstr "驅動程式 {} 安裝失敗！"
