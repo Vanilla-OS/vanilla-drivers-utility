@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"PO-Revision-Date: 2023-03-06 19:37+0000\n"
 "Last-Translator: Andrew Geo <andrewgeo@outlook.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/vanilla-"
-"drivers-utility/el/>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-drivers-utility/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -26,7 +26,7 @@ msgstr "Εργαλείο Προγραμμάτων Οδήγησης"
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr "Δεν υπάρχει περιγραφή"
+msgstr "Χωρίς περιγραφή"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
@@ -36,12 +36,12 @@ msgstr "Επανεκκίνηση τώρα"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Γενικές συντομεύσεις"
+msgstr "Γενικά"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Προβολή συντομεύσεων"
+msgstr "Προβολή Συντομεύσεων"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -173,9 +173,8 @@ msgid ""
 msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:110
-#, fuzzy
 msgid "_Cancel"
-msgstr "Ακύρωση"
+msgstr "_Ακύρωση"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 #, fuzzy
