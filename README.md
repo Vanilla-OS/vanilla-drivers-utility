@@ -1,9 +1,18 @@
 <div align="center">
     <img src="data/icons/hicolor/scalable/apps/org.vanillaos.DriversUtility.svg" height="64">
     <h1>Vanilla Drivers Utility</h1>
-    <p>A frontend in GTK 4 and Libadwaita for ubuntu-drivers.</p>
-    <br />
-    <img src="data/screenshot.png">
+</div>
+
+<div align="center">
+
+[![Translation Status][weblate-image]][weblate-url]
+
+[weblate-url]: https://hosted.weblate.org/engage/vanilla-os/
+[weblate-image]: https://hosted.weblate.org/widgets/vanilla-os/-/vanilla-drivers-utility/svg-badge.svg
+
+<p>A frontend in GTK 4 and Libadwaita for ubuntu-drivers.</p>
+<br />
+<img src="data/screenshot.png">
 </div>
 
 ## Build
