@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-03-20 15:01+0000\n"
+"PO-Revision-Date: 2023-03-24 18:25+0000\n"
 "Last-Translator: Trond Kjetil Bremnes <tk@bremnes.email>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-drivers-utility/nb_NO/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -31,7 +31,7 @@ msgstr "Ingen beskrivelse"
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "Start på nytt nå"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "Dette kan ta en stund."
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
@@ -74,7 +74,7 @@ msgstr "Avbryt"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
-msgstr ""
+msgstr "Transaksjoner er låst. Prøv igjen senere eller start enheten på nytt."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -82,15 +82,15 @@ msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Vennligst vent mens de tilgjengelige driverne lastes inn."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
-msgstr ""
+msgstr "Ingen drivere tilgjengelig"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Det er ingen ekstra drivere tilgjengelig for systemet ditt."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
@@ -107,7 +107,7 @@ msgstr ""
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Installer kommando: %s"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Free"
@@ -115,7 +115,7 @@ msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Proprietary"
-msgstr ""
+msgstr "Proprietær"
 
 #: vanilla_drivers_utility/widgets/driver.py:46
 msgid ", recommended"
@@ -123,21 +123,23 @@ msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:47
 msgid ", builtin"
-msgstr ""
+msgstr ", innebygd"
 
 #: vanilla_drivers_utility/widgets/driver.py:48
 msgid ", installed"
-msgstr ""
+msgstr ", installert"
 
 #: vanilla_drivers_utility/widgets/driver.py:49
 msgid ", Waiting for restart"
-msgstr ""
+msgstr ", Venter på omstart"
 
 #: vanilla_drivers_utility/widgets/driver.py:63
 msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
 msgstr ""
+"Det er ikke mulig å installere denne driveren nå. Start enheten på nytt og "
+"prøv igjen."
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
 msgid "Installing '{}'…"
@@ -150,17 +152,19 @@ msgstr ""
 
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
-msgstr ""
+msgstr "Installasjonen av driveren mislyktes. Vennligst prøv igjen senere."
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
-msgstr ""
+msgstr "Vil du installere den valgte driveren?"
 
 #: vanilla_drivers_utility/windows/main_window.py:108
 msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
 msgstr ""
+"Dette vil installere '{}'-pakken i systemet ditt og muligens fjerne andre "
+"versjoner."
 
 #: vanilla_drivers_utility/windows/main_window.py:110
 msgid "_Cancel"
@@ -168,12 +172,12 @@ msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr ""
+msgstr "Installer"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
-msgstr ""
+msgstr "Driver {} er installert!"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
-msgstr ""
+msgstr "Installasjon av driver {} mislyktes!"
