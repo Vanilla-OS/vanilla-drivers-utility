@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-20 18:21+0000\n"
+"PO-Revision-Date: 2023-04-03 02:54+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/oc/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -48,7 +48,7 @@ msgstr "Quitar"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
-msgstr ""
+msgstr "« Installacion dels pilòts novèls… »"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:22
 msgid "Installation in Progress…"
@@ -64,7 +64,7 @@ msgstr "Installacion acaba"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:53
 msgid "Restart your device to start using the new drivers."
-msgstr ""
+msgstr "Reaviatz vòstre aparelh per començar d’utilizar los pilòts novèls."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
@@ -73,6 +73,8 @@ msgstr "Anullar"
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
+"Las transaccions son blocadas. Mercés de tornar ensajar mai tard o reaviatz "
+"vòstre aparelh."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -80,15 +82,15 @@ msgstr "Cargament dels pilòts…"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Mercés d’esperar que los pilòts disponibles sián cargats."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
-msgstr ""
+msgstr "Cap de pilòt pas disponible"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Cap de pilòt suplementari pas disponible per vòstre sistèma."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
@@ -100,7 +102,7 @@ msgstr "_Acorchis de clavièr"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
-msgstr ""
+msgstr "_A prepaus del gestionari de pilòts"
 
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
@@ -117,62 +119,65 @@ msgstr "Proprietari"
 
 #: vanilla_drivers_utility/widgets/driver.py:46
 msgid ", recommended"
-msgstr ""
+msgstr ", recomandat"
 
 #: vanilla_drivers_utility/widgets/driver.py:47
 msgid ", builtin"
-msgstr ""
+msgstr ", integrat"
 
 #: vanilla_drivers_utility/widgets/driver.py:48
 msgid ", installed"
-msgstr ""
+msgstr ", installat"
 
 #: vanilla_drivers_utility/widgets/driver.py:49
 msgid ", Waiting for restart"
-msgstr ""
+msgstr ", reaviada pendenta"
 
 #: vanilla_drivers_utility/widgets/driver.py:63
 msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
 msgstr ""
+"Installacion impossibla d’aqueste pilòt pel moment. Mercés de reaviar vòstre "
+"sistèma e de tornar ensajar."
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
 msgid "Installing '{}'…"
-msgstr ""
+msgstr "Installacion de « {} »…"
 
 #: vanilla_drivers_utility/windows/installation_window.py:110
 #: vanilla_drivers_utility/windows/installation_window.py:111
 msgid "Installation Failed"
-msgstr ""
+msgstr "Fracàs de l’installacion"
 
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
 msgstr ""
+"L’installacion del pilòt a fracassat. Mercés de tornar ensajar mai tard."
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
-msgstr ""
+msgstr "Volètz installar lo pilòt seleccionat ?"
 
 #: vanilla_drivers_utility/windows/main_window.py:108
 msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
 msgstr ""
+"Installarà lo paquet « {} » dins vòstre sistèma e suprimirà las autras "
+"versions se cal."
 
 #: vanilla_drivers_utility/windows/main_window.py:110
-#, fuzzy
-#| msgid "Cancel"
 msgid "_Cancel"
-msgstr "Anullar"
+msgstr "_Anullar"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr ""
+msgstr "Installar"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
-msgstr ""
+msgstr "Lo pilòt {} es installat amb succès !"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
