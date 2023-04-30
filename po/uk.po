@@ -3,20 +3,23 @@
 # This file is distributed under the same license as the drivers_utility package.
 # Automatically generated, 2023.
 #
+# Dan <denqwerta@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-12 19:07+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-30 12:48+0000\n"
+"Last-Translator: Dan <denqwerta@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-drivers-utility/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -39,7 +42,7 @@ msgstr "Загальні"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Показати скорочення"
+msgstr "Показати ярлики"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -96,7 +99,7 @@ msgstr "_Налаштування"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "_Клавіатурні скорочення"
+msgstr "_Комбінації клавіш"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
@@ -154,21 +157,23 @@ msgstr "Не вдалося встановити драйвер. Будь лас
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
-msgstr ""
+msgstr "Ви хочете встановити вибраний драйвер?"
 
 #: vanilla_drivers_utility/windows/main_window.py:108
 msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
 msgstr ""
+"Це призведе до встановлення пакунка '{}' у вашій системі і, можливо, "
+"видалить інші версії."
 
 #: vanilla_drivers_utility/windows/main_window.py:110
 msgid "_Cancel"
-msgstr ""
+msgstr "_Скасувати"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr ""
+msgstr "Встановити"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
