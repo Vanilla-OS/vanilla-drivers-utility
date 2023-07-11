@@ -5,13 +5,14 @@
 #
 # Vojtěch Perník <translations@pervoj.cz>, 2023.
 # Fjuro <ifjuro@proton.me>, 2023.
+# Michal Walach <misawalach00@seznam.cz>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-06-26 04:40+0000\n"
-"Last-Translator: Fjuro <ifjuro@proton.me>\n"
+"PO-Revision-Date: 2023-07-09 22:52+0000\n"
+"Last-Translator: Michal Walach <misawalach00@seznam.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/cs/>\n"
 "Language: cs\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -32,7 +33,7 @@ msgstr "Žádný popis"
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr "Restartovat hned"
+msgstr "Restartovat nyní"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -76,7 +77,8 @@ msgstr "Zrušit"
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
-"Transakce jsou uzamčeny. Zkuste to prosím později nebo restartujte zařízení."
+"Transakce jsou uzamčeny. Prosím zkuste to znovu později nebo restartujte "
+"vaše zařízení."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
