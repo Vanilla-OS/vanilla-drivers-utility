@@ -5,13 +5,14 @@
 #
 # gnu-ewm <gnu.ewm@protonmail.com>, 2023.
 # poti225 <fila.tomasz225@gmail.com>, 2023.
+# Eryk Michalak <gnu.ewm@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-03-23 01:36+0000\n"
-"Last-Translator: poti225 <fila.tomasz225@gmail.com>\n"
+"PO-Revision-Date: 2023-07-09 22:52+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/pl/>\n"
 "Language: pl\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -179,7 +180,7 @@ msgstr "_Anuluj"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr "Zainstaluj"
+msgstr "Instalacja"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
