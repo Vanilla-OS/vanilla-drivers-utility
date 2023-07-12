@@ -24,7 +24,7 @@ msgstr ""
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
-msgstr "Utilitate pentru drivere"
+msgstr "Utilitar pentru drivere"
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
@@ -33,7 +33,7 @@ msgstr "Fără descriere"
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr "Reporniți acum"
+msgstr "Repornește acum"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -72,7 +72,7 @@ msgstr "Reporniți dispozitivul pentru a folosi noile drivere."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr "Anulare"
+msgstr "Anulează"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
@@ -85,11 +85,11 @@ msgstr "Se încarcă driverele…"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Vă rugăm să așteptați cât timp driverele valabile se încarcă."
+msgstr "Vă rog să așteptați cât timp driverele disponibile se încarcă."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
-msgstr "Nu sunt drivere valabile"
+msgstr "Nu sunt drivere disponibile"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:58
 msgid "There are no extra drivers available for your system."
@@ -101,11 +101,11 @@ msgstr "_Preferințe"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "_Comenzi rapide de la tastatură"
+msgstr "_Comenzi rapide pentru tastatură"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
-msgstr "_Despre utilitate_drivere"
+msgstr "_Despre utilitar_drivere"
 
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
@@ -141,12 +141,12 @@ msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
 msgstr ""
-"Nu este posibil să instalați acest driver acum. Vă rugăm să reporniți "
+"Nu este posibil să instalați acest driver acum. Vă rog să reporniți "
 "dispozitivul și să încercați din nou."
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
 msgid "Installing '{}'…"
-msgstr "Se instalează „{}”…"
+msgstr "Se instalează '{}'…"
 
 #: vanilla_drivers_utility/windows/installation_window.py:110
 #: vanilla_drivers_utility/windows/installation_window.py:111
@@ -156,7 +156,7 @@ msgstr "Instalarea a eșuat"
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
 msgstr ""
-"Instalarea driverului a eșuat. Vă rugăm să încercați din nou mai târziu."
+"Instalarea driverului a eșuat. Vă rog să încercați din nou mai târziu."
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
@@ -167,7 +167,7 @@ msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
 msgstr ""
-"Acest lucru va instala pachetul \"{}\" în sistemul dumneavoastră și, "
+"Acest proces va instala pachetul '{}' în sistemul dumneavoastră și, "
 "eventual, va elimina alte versiuni."
 
 #: vanilla_drivers_utility/windows/main_window.py:110
