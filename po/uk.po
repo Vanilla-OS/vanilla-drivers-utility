@@ -5,13 +5,14 @@
 #
 # Dan <denqwerta@gmail.com>, 2023.
 # Dan <jonweblin2205@protonmail.com>, 2023.
+# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-07-09 22:52+0000\n"
-"Last-Translator: Dan <jonweblin2205@protonmail.com>\n"
+"PO-Revision-Date: 2023-07-12 17:53+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/uk/>\n"
 "Language: uk\n"
@@ -100,7 +101,7 @@ msgstr "_Налаштування"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "_Комбінації клавіш"
+msgstr "Комбінації клавіш (_K)"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
