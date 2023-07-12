@@ -4,13 +4,14 @@
 # Automatically generated, 2023.
 #
 # Matt C <matei.gurzu@gmail.com>, 2023.
+# Gabriel Cozma <me@gabs.eu.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-22 05:28+0000\n"
-"Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
+"PO-Revision-Date: 2023-07-09 22:52+0000\n"
+"Last-Translator: Gabriel Cozma <me@gabs.eu.org>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/ro/>\n"
 "Language: ro\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -27,7 +28,7 @@ msgstr "Utilitate pentru drivere"
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr "Nicio descripție"
+msgstr "Fără descriere"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60

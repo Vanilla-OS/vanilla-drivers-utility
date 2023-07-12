@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-04-14 06:58+0000\n"
+"PO-Revision-Date: 2023-07-09 22:52+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -44,7 +44,7 @@ msgstr "მალსახმობების ჩვენება"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "გასვლა"
+msgstr "დატოვება"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
@@ -65,14 +65,17 @@ msgstr "დაყენება დასრულებულია"
 #: vanilla_drivers_utility/gtk/window-installation.ui:53
 msgid "Restart your device to start using the new drivers."
 msgstr ""
+"გადატვირთეთ თქვენი მოწყობილობა ახალი დრაივერების გამოყენების დასაწყებად."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr "გაუქმება"
+msgstr "გაუქმენა"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
+"ტრანზაქციები დაბლოკილია. გთხოვთ, სცადოთ მოგვიანებით ან გადატვირთეთ თქვენი "
+"მოწყობილობა."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -80,7 +83,7 @@ msgstr "დრაივერების ჩატვირთვა…"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:48
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "გთხოვთ, დაელოდოთ სანამ ხელმისაწვდომი დრაივერები იტვირთება."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:57
 msgid "No Drivers Available"
@@ -136,6 +139,8 @@ msgid ""
 "It is not possible to install this driver now. Please restart your device "
 "and try again."
 msgstr ""
+"ამ დრაივერის დაყენება ახლა შეუძლებელია. გთხოვთ, გადატვირთოთ თქვენი "
+"მოწყობილობა და სცადოთ ხელახლა."
 
 #: vanilla_drivers_utility/windows/installation_window.py:38
 msgid "Installing '{}'…"
@@ -148,7 +153,7 @@ msgstr "დაყენების შეცდომა"
 
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
-msgstr ""
+msgstr "დრაივერის დაყენება ვერ მოხერხდა. მოგვიანებით სცადეთ."
 
 #: vanilla_drivers_utility/windows/main_window.py:107
 msgid "Do you want to install the selected driver?"
@@ -159,6 +164,7 @@ msgid ""
 "This will install the '{}' package in your system and possibly remove other "
 "versions."
 msgstr ""
+"ეს დააყენებს '{}' პაკეტს თქვენს სისტემაში და შესაძლოა წაშალოს სხვა ვერსიები."
 
 #: vanilla_drivers_utility/windows/main_window.py:110
 msgid "_Cancel"
@@ -170,8 +176,8 @@ msgstr "დაყენება"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
-msgstr ""
+msgstr "დრაივერის {} დაყენება წარმატებით დასრულდა!"
 
 #: vanilla_drivers_utility/windows/main_window.py:123
 msgid "Driver {} installation failed!"
-msgstr ""
+msgstr "დრაივერის {} ინსტალაცია ვერ მოხერხდა!"

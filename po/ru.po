@@ -7,13 +7,14 @@
 # Sergey Ivanov <ivanov.sergey.ekb@gmail.com>, 2023.
 # reflexguru <trianglestudioad@gmail.com>, 2023.
 # Alexey <aleksejfedorov963@gmail.com>, 2023.
+# Alexei <aleksejfedorov963@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-03-27 06:39+0000\n"
-"Last-Translator: Alexey <aleksejfedorov963@gmail.com>\n"
+"PO-Revision-Date: 2023-07-09 22:52+0000\n"
+"Last-Translator: Alexei <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/ru/>\n"
 "Language: ru\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -35,12 +36,12 @@ msgstr "Нет описания"
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr "Перезагрузитесь сейчас"
+msgstr "Перезагрузить сейчас"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Общие"
+msgstr "Основные"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
@@ -101,13 +102,12 @@ msgid "There are no extra drivers available for your system."
 msgstr "Для вашей системы нет доступных дополнительных драйверов."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
-#, fuzzy
 msgid "_Preferences"
-msgstr "_Предложения"
+msgstr "_Параметры"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "_Горячие клавиши"
+msgstr "_Сочетания Клавиш"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"

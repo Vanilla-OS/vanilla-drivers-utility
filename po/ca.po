@@ -3,18 +3,22 @@
 # This file is distributed under the same license as the drivers_utility package.
 # Automatically generated, 2023.
 #
+# jolupa <jolupameister@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-02-12 19:07+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-09 22:52+0000\n"
+"Last-Translator: jolupa <jolupameister@gmail.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-drivers-utility/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -22,7 +26,7 @@ msgstr ""
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Sense descripció"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
@@ -66,7 +70,7 @@ msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel·lar"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
@@ -164,7 +168,7 @@ msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr ""
+msgstr "Instal·lar"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
