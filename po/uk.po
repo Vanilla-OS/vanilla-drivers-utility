@@ -6,13 +6,14 @@
 # Dan <denqwerta@gmail.com>, 2023.
 # Dan <jonweblin2205@protonmail.com>, 2023.
 # "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
+# Pindos <dfgfgg977@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-07-12 17:53+0000\n"
-"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
+"PO-Revision-Date: 2023-07-24 18:05+0000\n"
+"Last-Translator: Pindos <dfgfgg977@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/uk/>\n"
 "Language: uk\n"
@@ -39,12 +40,12 @@ msgstr "Перезапустити зараз"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Загальний"
+msgstr "Загальні"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Показати ярлики"
+msgstr "Показати скорочення"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
