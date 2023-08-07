@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-07-09 22:52+0000\n"
+"PO-Revision-Date: 2023-07-16 04:25+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/ka/>\n"
@@ -44,7 +44,7 @@ msgstr "მალსახმობების ჩვენება"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "დატოვება"
+msgstr "გასვლა"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
@@ -69,7 +69,7 @@ msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr "გაუქმენა"
+msgstr "გაუქმება"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
