@@ -1,20 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the drivers_utility package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Daniel Toubul <molder@toubul.eu>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-08-22 05:19+0000\n"
+"Last-Translator: Daniel Toubul <molder@toubul.eu>\n"
+"Language-Team: Hebrew <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-drivers-utility/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -22,27 +25,27 @@ msgstr ""
 
 #: data/org.vanillaos.DriversUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "אין תיאור"
 
 #: vanilla_drivers_utility/gtk/driver.ui:22
 #: vanilla_drivers_utility/gtk/window-installation.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "אתחל עכשיו"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "כללי"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "הצג קיצורי דרך"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "צא"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
@@ -54,11 +57,11 @@ msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "פעולה זו עלולה לקחת זמן מה"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:52
 msgid "Installation Complete"
-msgstr ""
+msgstr "ההתקנה הושלמה"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:53
 msgid "Restart your device to start using the new drivers."
@@ -66,7 +69,7 @@ msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "בטל"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
@@ -94,7 +97,7 @@ msgstr ""
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_קיצורי מקלדת"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
@@ -107,11 +110,11 @@ msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Free"
-msgstr ""
+msgstr "חופשי"
 
 #: vanilla_drivers_utility/widgets/driver.py:45
 msgid "Proprietary"
-msgstr ""
+msgstr "קנייני"
 
 #: vanilla_drivers_utility/widgets/driver.py:46
 msgid ", recommended"
@@ -127,7 +130,7 @@ msgstr ""
 
 #: vanilla_drivers_utility/widgets/driver.py:49
 msgid ", Waiting for restart"
-msgstr ""
+msgstr ", ממתין לאתחול"
 
 #: vanilla_drivers_utility/widgets/driver.py:63
 msgid ""
@@ -142,7 +145,7 @@ msgstr ""
 #: vanilla_drivers_utility/windows/installation_window.py:110
 #: vanilla_drivers_utility/windows/installation_window.py:111
 msgid "Installation Failed"
-msgstr ""
+msgstr "ההתקנה נכשלה"
 
 #: vanilla_drivers_utility/windows/installation_window.py:112
 msgid "The installation of the driver failed. Please try again later."
@@ -159,12 +162,13 @@ msgid ""
 msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:110
+#, fuzzy
 msgid "_Cancel"
-msgstr ""
+msgstr "_בטל"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr ""
+msgstr "התקן"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"

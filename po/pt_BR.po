@@ -104,7 +104,7 @@ msgstr "_Preferências"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "Teclas de Atalho (_K)"
+msgstr "_Teclas de Atalho"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
