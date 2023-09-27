@@ -102,7 +102,7 @@ msgstr "_Preferenze"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "_Scorciatoie da Tastiera"
+msgstr "Scorciatoie da Tastiera (_K)"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
