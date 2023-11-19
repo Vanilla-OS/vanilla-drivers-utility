@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-08-31 05:53+0000\n"
+"PO-Revision-Date: 2023-11-19 20:43+0000\n"
 "Last-Translator: Fedorov Alexei <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/ru/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -48,12 +48,12 @@ msgstr "Основные"
 #: vanilla_drivers_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Показывать ярлыки"
+msgstr "Показывать горячие клавиши"
 
 #: vanilla_drivers_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Выйти"
+msgstr "Завершить"
 
 #: vanilla_drivers_utility/gtk/window-installation.ui:6
 msgid "\"Installing new Drivers…\""
@@ -105,15 +105,15 @@ msgstr "Для вашей системы нет доступных дополн�
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
-msgstr "_Параметры"
+msgstr "Параметры (_P)"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "Сочетания Клавиш (_K)"
+msgstr "Сочетания клавиш (_K)"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
-msgstr "_О менеджере_драйверов"
+msgstr "О менеджере драйверов (_A)"
 
 #: vanilla_drivers_utility/utils/wrapper.py:67
 #, python-format
@@ -184,7 +184,7 @@ msgstr "_Отменить"
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr "Установить"
+msgstr "Установить (install)"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
