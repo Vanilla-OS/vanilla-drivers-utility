@@ -6,13 +6,14 @@
 # Ibrahim Kaikaa <ibrahimkaikaa@protonmail.com>, 2023.
 # Muhammad Bahaa <muhammad.bahaa1@gmail.com>, 2023.
 # Moumn Almunawy <moumnalmunawy2006@gmail.com>, 2023.
+# Majed Alghoul <jedgh9@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-07-11 23:50+0000\n"
-"Last-Translator: Moumn Almunawy <moumnalmunawy2006@gmail.com>\n"
+"PO-Revision-Date: 2023-11-03 20:12+0000\n"
+"Last-Translator: Majed Alghoul <jedgh9@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/ar/>\n"
 "Language: ar\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -77,7 +78,8 @@ msgstr "إلغاء"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
-msgstr "المعاملات مقفلة. يرجى المحاولة مرة أخرى لاحقًا أو إعادة تشغيل جهازك."
+msgstr ""
+"المعاملات مقفلة. يرجى المحاولة مرة أخرى لاحقًا أو قم بإعادة تشغيل جهازك."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:47
 msgid "Loading drivers…"
@@ -97,11 +99,11 @@ msgstr "لا يوجد تعريفات إضافية متاحة نظامك."
 
 #: vanilla_drivers_utility/gtk/window-main.ui:78
 msgid "_Preferences"
-msgstr "الإعدادات (_P)"
+msgstr "_التفضيلات"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:82
 msgid "_Keyboard Shortcuts"
-msgstr "اختصارات لوحة المفاتيح (_K)"
+msgstr "_اختصارات لوحة المفاتيح"
 
 #: vanilla_drivers_utility/gtk/window-main.ui:86
 msgid "_About drivers_utility"
