@@ -5,13 +5,14 @@
 #
 # Zee <efzeee@pm.me>, 2023.
 # Reza Almanda <rezaalmanda27@gmail.com>, 2023.
+# Sultan Iskandar Maulana <nattadasu@nattadasu.my.id>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: drivers_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:14+0100\n"
-"PO-Revision-Date: 2023-09-27 00:01+0000\n"
-"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"PO-Revision-Date: 2023-11-26 16:57+0000\n"
+"Last-Translator: Sultan Iskandar Maulana <nattadasu@nattadasu.my.id>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-drivers-utility/id/>\n"
 "Language: id\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 
 #: data/org.vanillaos.DriversUtility.desktop.in:3
 msgid "Drivers Utility"
@@ -169,7 +170,7 @@ msgstr ""
 
 #: vanilla_drivers_utility/windows/main_window.py:111
 msgid "Install"
-msgstr ""
+msgstr "Pasang"
 
 #: vanilla_drivers_utility/windows/main_window.py:118
 msgid "Driver {} installed successfully!"
